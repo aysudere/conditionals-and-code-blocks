@@ -19,7 +19,7 @@ public class ConditionalStates2 {
 
          */
 
-      /*  Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Please select your operation : " +
                 "1.sum " +
                 "2.sub " +
@@ -42,12 +42,12 @@ public class ConditionalStates2 {
         }
         else {
             System.out.println("Invalid operation..");
-        } */
+        }
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner1 = new Scanner(System.in);
         System.out.println("Please select your score : ");
 
-        int score = scanner.nextInt();
+        int score = scanner1.nextInt();
 
         if(score >= 90) {
             System.out.println("AA");
